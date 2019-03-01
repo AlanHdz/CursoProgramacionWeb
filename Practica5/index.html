@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica 5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+	<div class="center">
+		<form action="/" method="GET">
+			<fieldset>
+				<legend>Alumno</legend>
+				<div class="top-space">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" id="nombre" class="field" placeholder="Nombre del alumno">
+				</div>
+	
+				<div class="top-space">
+					<label for="apelidos">Apellidos</label>
+					<input type="text" name="apellidos" id="apellidos" class="field" placeholder="Apellido del alumno">
+				</div>
+				<div class="top-space">
+					<label for="foto">Foto</label>
+					<input type="file" name="foto" id="foto">
+				</div>
+				<div class="top-space">
+					<label for="telefono">Telefono</label>
+					<input type="number" name="telefono" class="field" id="telefono" placeholder="Numero del alumno">
+				</div>
+				<div class="top-space">
+					<label for="gender">Gender</label>
+					<input type="radio" id="gender" name="gender" value="male"> Hombre
+					<input type="radio" id="gender" name="gender" value="female"> Mujer
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Dirección</legend>
+				<div class="top-space">
+					<label for="direccion">Direccion</label>
+					<textarea name="direccion" placeholder="Direccion del alumno" id="direccion" cols="20" rows="5" class="field"></textarea>
+				</div>
+				<div class="top-space">
+					<label for="estado">Estado</label>
+					<select name="estado" id="estado" class="field">
+						<option value="Aguascalientes">Aguascalientes</option>
+						<option value="Tamaulipas">Tamaulipas</option>
+						<option value="Tlaxcala">Tlaxcala</option>
+						<option value="Veracruz">Veracruz de Ignacio de la Llave</option>
+						<option value="Yucatán">Yucatán</option>
+						<option value="Zacatecas">Zacatecas</option>
+					</select>
+				</div>
+				<div class="top-space">
+					<label for="ciudad">Ciudad</label>
+					<select name="ciudad" id="ciudad" class="field">
+						<option value="Tampico">Tampico</option>
+						<option value="Madero">Madero</option>
+						<option value="Aldama">Aldama</option>
+						<option value="Altamira">Altamira</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Materias</legend>
+				<div class="top-space">
+					<label for="materias">Materias</label> <br>
+					<input type="checkbox" name="web" id="materias"> Programación Web <br>
+					<input type="checkbox" name="web" id="materias"> Sistemas Programables <br>
+					<input type="checkbox" name="web" id="materias"> Mod.Proc de Negocios <br>
+					<input type="checkbox" name="web" id="materias"> Admin de Base de Datos <br>
+					<input type="checkbox" name="web" id="materias"> Modelos Matematicos <br>
+					<input type="checkbox" name="web" id="materias"> Lenguajes Automatas
+				</div>
+				<div class="top-space btn-center">
+					<input type="submit" class="btn btn-block">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+#navega{
+    position: relative;
+    float: right;
+    padding: 1em,2em,1em,1em;
+    margin: 2em;
+    background-color: lightgrey;
+    border: 5px red;
+    width: 15em;
+}
+body{
+    background-color: wheat;
+}
+
+h1{
+    color: royalblue;
+    font-family: Arial ;
+}
+
+
+nav{
+    position: static;
+    background-color: darkgrey;
+    font-family: Comic Sans;
+    font-size: 40px;
+    text-align: center;
+    
+}
+a{
+    background-color: grey;
+    font-size: 30px;
+}
+
+footer{
+    position: absolute center;
+    text-align: center;
+    background-color: lightsteelblue;
+    font-color: green;
+   
+}
+article{
+    /* padding: 2em 20em 2em 10em; */
+}
+section p{
+    font-color: black;
+    font-family: Comic Sans;
+    text-align: center;
+    
+}
+p{
+    font-color: black;
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+main{
+    position: absolute;
+    left: 15px;
+    padding: 5em 15em 5em 2em;
+    /*<!--border: 2px solid aqua;--> */
+}
+#datos{
+    font-family: cursive;
+    color: red;
+}
+
+
+
+

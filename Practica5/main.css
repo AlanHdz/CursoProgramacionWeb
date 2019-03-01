@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #009E3A;
+}
+
+.center {
+    margin: 20px auto;
+    width: 600px;
+}
+form {
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+form input {
+    outline: none;
+    border: 0;
+}
+
+form textarea {
+    outline: none;
+    border: 0;
+    resize: none;
+}
+
+form select {
+    outline: none;
+}
+
+form label {
+    color: #9E9D9D;
+    margin-top: .2em;
+}
+
+.top-space {
+    margin-top: 1em;
+}
+
+.field {
+    overflow: hidden;
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    background-color: #f0f4f8;
+    box-sizing: border-box;
+    margin: .2em 0em .2em 0em;
+}
+
+.field:focus, textarea {
+    transition: ease-in-out 0.5s;
+    border-color: #1bbc9b;
+}
+
+.btn-center {
+    width: 100%;
+}
+
+.btn {
+    color: white;
+    background-color: #009E3A;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.btn-block {
+    width: 100%;
+}
